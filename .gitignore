@@ -18,3 +18,4 @@ build
 config.properties
 .idea
 !lib/dev-kt-v1.3-SNAPSHOT.jar
+!gradle/wrapper/gradle-wrapper.jar
