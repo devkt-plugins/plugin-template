@@ -17,5 +17,5 @@ build
 .build-cache
 config.properties
 .idea
-!lib/dev-kt-v1.3-SNAPSHOT.jar
+!lib/*.jar
 !gradle/wrapper/gradle-wrapper.jar
