@@ -42,6 +42,8 @@ repositories {
 
 dependencies {
   compileOnly(kotlin("compiler-embeddable", kotlinVersion))
-  compileOnly(files(*File("lib").listFiles()))
+	val version = "67357db04d"
+	compileOnly(group = "com.github.ice1000.dev-kt", name = "common", version = version)
+	runtime(group = "com.github.ice1000.dev-kt", name = "swing", version = version)
 }
 
